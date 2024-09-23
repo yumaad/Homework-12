@@ -4,7 +4,7 @@ public class Main {
         Author author2 = new Author("Иван", "Гончаров");
 
         Book book1 = new Book("Гранатовый браслет", author1, 1911);
-        Book book2 = new Book("Обломов", author2,2000);
+        Book book2 = new Book("Обломов", author2, 2000);
 
         // Изменяем год публикации одной из книг
         book1.setYear(2022);
